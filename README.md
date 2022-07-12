@@ -16,5 +16,5 @@ Database:
 to run the chat bot nltk files needs to be downloaded 
 below commands need to be running 
 nltk.download('punkt')
- nltk.download('wordnet')
- nltk.download('omw-1.4')
+nltk.download('wordnet')
+nltk.download('omw-1.4')

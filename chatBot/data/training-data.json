@@ -18,6 +18,21 @@
       "patterns": ["whats your age?", "how old are you?", "how long are you alive", "age?"],
       "responses": ["I am 1 year old", "1 year bro!!!", "just a toddler"],
       "context_set": ""
+    },
+    { "tag": "name",
+      "patterns": ["whats your name?", "name", "who are you", "who are you"],
+      "responses": ["what can i search for you", "search what", "Tell me"],
+      "context_set": "command"
+    },
+    { "tag": "search",
+      "patterns": ["who the heck is?", "search", "where is", "find"],
+      "responses": ["what can i search for you", "search what", "Tell me"],
+      "context_set": "command"
+    },
+    { "tag": "time",
+      "patterns": ["What is time now", "what is current time", "time now", "age?"],
+      "responses": ["now is:{}", "curent time is {}", "sure {} is the time"],
+      "context_set": "command"
     }
   ]
   }

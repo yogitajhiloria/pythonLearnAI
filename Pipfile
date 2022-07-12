@@ -9,8 +9,18 @@ dnspython = "*"
 numpy = "*"
 nltk = "*"
 tensorflow = "*"
+speechrecognition = "*"
+pyttsx3 = "*"
+pywhatkit = "*"
+wikipedia = "*"
+pyjokes = "*"
+pyaudio = {file = "https://download.lfd.uci.edu/pythonlibs/archived/PyAudio-0.2.11-cp310-cp310-win_amd64.whl"}
 
 [dev-packages]
+black = "*"
 
 [requires]
 python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
