@@ -21,7 +21,7 @@
     },
     { "tag": "name",
       "patterns": ["whats your name?", "name", "who are you", "who are you"],
-      "responses": ["what can i search for you", "search what", "Tell me"],
+      "responses": ["I am {}", "Hey! i am {}", "Name is {} baby"],
       "context_set": "command"
     },
     { "tag": "search",
@@ -31,7 +31,17 @@
     },
     { "tag": "time",
       "patterns": ["What is time now", "what is current time", "time now", "age?"],
-      "responses": ["now is:{}", "curent time is {}", "sure {} is the time"],
+      "responses": ["now is: {}", "curent time is {}", "sure {} is the time"],
+      "context_set": "command"
+    },
+    { "tag": "myself",
+      "patterns": ["are you single", "whats your relationship"],
+      "responses": ["I am in a relationship with wifi"],
+      "context_set": "command"
+    },
+    { "tag": "switch",
+      "patterns": ["Go Switch", "change bot", "Go awesome"],
+      "responses": ["Switching to {}"],
       "context_set": "command"
     }
   ]

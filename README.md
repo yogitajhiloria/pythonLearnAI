@@ -18,3 +18,7 @@ below commands need to be running
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+
+
+To validate Speech recognization try this comment
+python -m speech_recognition

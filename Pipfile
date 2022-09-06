@@ -15,6 +15,7 @@ pywhatkit = "*"
 wikipedia = "*"
 pyjokes = "*"
 pyaudio = {file = "https://download.lfd.uci.edu/pythonlibs/archived/PyAudio-0.2.11-cp310-cp310-win_amd64.whl"}
+google-cloud-speech = "*"
 
 [dev-packages]
 black = "*"
